@@ -1,0 +1,773 @@
+﻿Log file open, 11/10/17 21:48:21
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: OrbitalDodge
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1189488935) SRandInit(-1189488935).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.203707
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.11-04.48.23:051][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.11-04.48.23:051][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.11-04.48.23:109][  0]LogInit: Computer: DESKTOP-B49N849
+[2017.11.11-04.48.23:109][  0]LogInit: User: JerryKendall
+[2017.11.11-04.48.23:109][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.11-04.48.23:109][  0]LogInit: High frequency timer resolution =2.338346 MHz
+[2017.11.11-04.48.23:109][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2017.11.11-04.48.23:109][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.11-04.48.23:109][  0]LogMemory: Process Physical Memory: 278.21 MB used, 278.21 MB peak
+[2017.11.11-04.48.23:110][  0]LogMemory: Process Virtual Memory: 274.29 MB used, 274.29 MB peak
+[2017.11.11-04.48.23:110][  0]LogMemory: Physical Memory: 5470.56 MB used,  6738.45 MB free, 12209.02 MB total
+[2017.11.11-04.48.23:110][  0]LogMemory: Virtual Memory: 673.60 MB used,  6738.45 MB free, 134217728.00 MB total
+[2017.11.11-04.48.23:364][  0]LogInit: Using OS detected language (en-US).
+[2017.11.11-04.48.23:364][  0]LogInit: Using OS detected locale (en-US).
+[2017.11.11-04.48.23:550][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.11-04.48.29:472][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.11-04.48.29:560][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
+[2017.11.11-04.48.29:560][  0]LogD3D11RHI:       4065/0/6104 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.11.11-04.48.29:567][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.11.11-04.48.29:567][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.11.11-04.48.29:569][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.11-04.48.29:569][  0]LogD3D11RHI:       0/0/6104 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.11-04.48.29:569][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.11-04.48.29:578][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.11-04.48.29:578][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
+[2017.11.11-04.48.29:578][  0]LogWindows: EnumDisplayDevices:
+[2017.11.11-04.48.29:578][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.11.11-04.48.29:579][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.11.11-04.48.29:579][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.11.11-04.48.29:579][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.11.11-04.48.29:579][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
+[2017.11.11-04.48.29:579][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.11.11-04.48.29:579][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.11.11-04.48.29:579][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.11-04.48.29:628][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.11-04.48.29:641][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.11.11-04.48.29:642][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/Jerry Kendall/Documents/OrbitalDodge/OrbitalDodge/Intermediate/Shaders/WorkingDirectory/14876/).
+[2017.11.11-04.48.29:643][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jerry Kendall/AppData/Local/Temp/UnrealShaderWorkingDir/CB8DB7E24487E8B748141F87B3A208DB/'.
+[2017.11.11-04.48.29:643][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.11-04.48.33:202][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.11-04.48.33:284][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.11-04.48.33:368][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.11-04.48.33:448][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.11-04.48.33:568][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.11-04.48.33:648][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.11-04.48.33:729][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.11-04.48.33:811][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.11-04.48.33:881][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.11-04.48.33:976][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.11-04.48.34:054][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.11-04.48.34:135][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.11-04.48.34:213][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.11-04.48.34:291][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.11-04.48.34:378][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.11-04.48.34:535][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.11-04.48.34:535][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.11-04.48.34:602][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.11-04.48.34:817][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.11-04.48.34:859][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.11-04.48.34:938][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.11-04.48.35:016][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.11-04.48.35:095][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.11-04.48.35:191][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.11-04.48.35:191][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.11-04.48.35:930][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.11-04.48.36:072][  0]LogDerivedDataCache: Loaded boot cache 0.14s 93MB C:/Users/Jerry Kendall/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.11-04.48.36:072][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Jerry Kendall/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.11.11-04.48.36:072][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jerry Kendall/Documents/OrbitalDodge/OrbitalDodge/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.11-04.48.36:072][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.11-04.48.36:072][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jerry Kendall/Documents/OrbitalDodge/OrbitalDodge/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.11-04.48.36:072][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.11-04.48.36:096][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.11-04.48.36:110][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jerry Kendall/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.11-04.48.36:123][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.11-04.48.36:124][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.11-04.48.36:166][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.11-04.48.36:166][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.11-04.48.37:768][  0]LogAssetRegistry: FAssetRegistry took 0.0281 seconds to start up
+[2017.11.11-04.48.37:953][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.11-04.48.38:189][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.11-04.48.38:688][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.11-04.48.38:752][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.11-04.48.38:752][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.11-04.48.38:752][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.11-04.48.38:752][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.11-04.48.38:752][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.11-04.48.39:291][  0]LogNetVersion: OrbitalDodge , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2804052806)
+[2017.11.11-04.48.39:658][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.112863 seconds
+[2017.11.11-04.48.39:668][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.11.11-04.48.39:668][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.11.11-04.48.39:668][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.11-04.48.39:754][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.11-04.49.04:505][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.11-04.49.04:562][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.11-04.49.06:010][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.11-04.49.06:696][  0]SourceControl: Source control is disabled
+[2017.11.11-04.49.06:696][  0]SourceControl: Source control is disabled
+[2017.11.11-04.49.06:777][  0]SourceControl: Source control is disabled
+[2017.11.11-04.49.06:858][  0]SourceControl: Source control is disabled
+[2017.11.11-04.49.08:017][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.11-04.49.08:433][  0]LogOcInput: OculusInput pre-init called
+[2017.11.11-04.49.08:870][  0]LogEngine: Initializing Engine...
+[2017.11.11-04.49.08:873][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.11-04.49.09:184][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.11-04.49.09:184][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.11-04.49.09:390][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.11-04.49.09:399][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.11-04.49.09:422][  0]LogInit: FAudioDevice initialized.
+[2017.11.11-04.49.09:640][  0]LogDerivedDataCache: Saved boot cache 0.22s 93MB C:/Users/Jerry Kendall/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.11-04.49.09:659][  0]LogInit: Texture streaming: Enabled
+[2017.11.11-04.49.09:824][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.11-04.49.10:188][  0]LogInit: Transaction tracking system initialized
+[2017.11.11-04.49.10:695][  0]BlueprintLog: New page: Editor Load
+[2017.11.11-04.49.12:153][  0]LocalizationService: Localization service is disabled
+[2017.11.11-04.49.13:326][  0]LogConsoleResponse: Display: 
+[2017.11.11-04.49.13:606][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.11-04.49.13:607][  0]LogCook: Display: Mobile HDR setting 0
+[2017.11.11-04.49.13:607][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.11-04.49.14:065][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jerry Kendall/Documents/OrbitalDodge/OrbitalDodge/Content/' took 0.02s
+[2017.11.11-04.49.15:662][  0]SourceControl: Source control is disabled
+[2017.11.11-04.49.15:662][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jerry Kendall/Documents/OrbitalDodge/OrbitalDodge/Content/Maps/DefaultMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.11-04.49.15:662][  0]LightingResults: New page: Lighting Build
+[2017.11.11-04.49.15:729][  0]MapCheck: New page: Map Check
+[2017.11.11-04.49.15:729][  0]LightingResults: New page: Lighting Build
+[2017.11.11-04.49.16:382][  0]LogAIModule: Creating AISystem for world DefaultMap
+[2017.11.11-04.49.16:399][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.11-04.49.16:421][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.11-04.49.16:522][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 101.027ms to complete.
+[2017.11.11-04.49.16:522][  0]LogFileHelpers: Loading map 'DefaultMap' took 0.860
+[2017.11.11-04.49.17:020][  0]LogCollectionManager: Loaded 0 collections in 0.002706 seconds
+[2017.11.11-04.49.17:128][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jerry Kendall/Documents/OrbitalDodge/OrbitalDodge/Saved/Collections/' took 0.01s
+[2017.11.11-04.49.17:128][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jerry Kendall/Documents/OrbitalDodge/OrbitalDodge/Content/Developers/JerryKendall/Collections/' took 0.01s
+[2017.11.11-04.49.17:128][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jerry Kendall/Documents/OrbitalDodge/OrbitalDodge/Content/Collections/' took 0.01s
+[2017.11.11-04.49.17:128][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.11.11-04.49.17:140][  0]LogContentBrowser: Native class hierarchy populated in 0.0122 seconds. Added 2386 classes and 500 folders.
+[2017.11.11-04.49.17:243][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.11.11-04.49.18:159][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.11.11-04.49.18:227][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.11.11-04.49.18:322][  0]LogSlate: Took 0.000393 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.11-04.49.18:329][  0]LogSlate: Took 0.000483 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.11-04.49.18:349][  0]LogSlate: Took 0.013851 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.11-04.49.18:489][  0]LogRenderer: Reallocating scene render targets to support 544x312 Format 10 NumSamples 1 (Frame:1).
+[2017.11.11-04.49.18:543][  0]LogSlate: Took 0.000292 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.11-04.49.18:720][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.11.11-04.49.18:720][  0]LogLoad: (Engine Initialization) Total time: 59.41 seconds
+[2017.11.11-04.49.18:720][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.11-04.49.18:720][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.11.11-04.49.18:756][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.11-04.49.18:849][  0]LogRenderer: Reallocating scene render targets to support 544x324 Format 10 NumSamples 1 (Frame:3).
+[2017.11.11-04.49.18:898][  1]LogAssetRegistry: Asset discovery search completed in 41.1518 seconds
+[2017.11.11-04.49.18:903][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.11-04.49.18:903][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000102 seconds (updated 0 objects)
+[2017.11.11-04.49.23:574][313]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.OrbitalDodge
+[2017.11.11-04.49.23:574][313]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.11.11-04.49.23:574][313]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.11.11-04.49.23:574][313]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.11.11-04.49.23:574][313]LogTemp: BranchPath = DESKTOP-B49N849/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-B49N849/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.11.11-04.49.23:574][313]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Jerry Kendall\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.11.11-04.50.57:004][511]LogSlate: Took 0.000277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.11-04.51.00:645][878]LogUObjectGlobals: Warning: Failed to find object 'Class None.None'
+[2017.11.11-04.53.15:292][790]LogSavePackage: Save=117.05ms
+[2017.11.11-04.53.15:292][790]LogSavePackage: Moving '../../../../../../Users/Jerry Kendall/Documents/OrbitalDodge/OrbitalDodge/Saved/DefaultMapD4EB7A1143D8265BEE6D3D8B8D7626F1.tmp' to '../../../../../../Users/Jerry Kendall/Documents/OrbitalDodge/OrbitalDodge/Content/Maps/DefaultMap.umap'
+[2017.11.11-04.53.15:305][790]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jerry Kendall/Documents/OrbitalDodge/OrbitalDodge/Content/Maps/DefaultMap.umap
+[2017.11.11-04.53.15:348][790]LogFileHelpers: Saving map 'DefaultMap' took 0.310
+[2017.11.11-04.53.16:241][894]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.11.11-04.53.16:390][894]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2017.11.11-04.53.16:390][894]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.11-04.53.16:390][894]PIE: New page: PIE session: DefaultMap (Nov 10, 2017, 2:53:16 PM)
+[2017.11.11-04.53.16:390][894]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DefaultMap
+[2017.11.11-04.53.16:397][894]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006636s)
+[2017.11.11-04.53.16:398][894]LogAIModule: Creating AISystem for world DefaultMap
+[2017.11.11-04.53.16:398][894]LogPlayLevel: PIE: World Init took: (0.001022s)
+[2017.11.11-04.53.16:398][894]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DefaultMap.DefaultMap to /Game/Maps/UEDPIE_0_DefaultMap.DefaultMap (0.007990s)
+[2017.11.11-04.53.16:415][894]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.11-04.53.16:431][894]LogInit: FAudioDevice initialized.
+[2017.11.11-04.53.16:490][894]LogLoad: Game class is 'OrbitalDodge_GM_C'
+[2017.11.11-04.53.16:495][894]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DefaultMap.DefaultMap up for play (max tick rate 0) at 2017.11.10-21.53.16
+[2017.11.11-04.53.16:496][894]LogWorld: Bringing up level for play took: 0.002749
+[2017.11.11-04.53.16:565][894]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 11 classes and 0 folders.
+[2017.11.11-04.53.16:567][894]LogBlueprintUserMessages: [InvincibilityPowerup_506] Start Tracking
+[2017.11.11-04.53.16:567][894]LogBlueprintUserMessages: [ShrinkCube_884] Start Tracking
+[2017.11.11-04.53.16:567][894]LogBlueprintUserMessages: [Obstacles3_823] Start Tracking
+[2017.11.11-04.53.16:567][894]LogBlueprintUserMessages: [Obstacles4_1086] Start Tracking
+[2017.11.11-04.53.16:567][894]LogBlueprintUserMessages: [Obstacles_407] Start Tracking
+[2017.11.11-04.53.16:568][894]LogBlueprintUserMessages: [Obstacles2_550] Start Tracking
+[2017.11.11-04.53.16:568][894]LogBlueprintUserMessages: [ObstacleSpawner_94] Spawning Obstcle
+[2017.11.11-04.53.16:575][894]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_DefaultMap -0.438
+[2017.11.11-04.53.16:575][894]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2017.11.11-04.53.16:609][894]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2017.11.11-04.53.17:365][968]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=63.160 Y=-18.587 Z=70.000
+[2017.11.11-04.53.17:376][969]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=61.013 Y=-22.881 Z=70.000
+[2017.11.11-04.53.17:389][970]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=56.720 Y=-27.175 Z=70.000
+[2017.11.11-04.53.17:399][971]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=48.132 Y=-44.349 Z=70.000
+[2017.11.11-04.53.17:411][972]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=48.132 Y=-55.084 Z=70.000
+[2017.11.11-04.53.17:423][973]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=39.545 Y=-74.405 Z=70.000
+[2017.11.11-04.53.17:431][974]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=37.398 Y=-85.140 Z=70.000
+[2017.11.11-04.53.17:442][975]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=33.104 Y=-95.874 Z=70.000
+[2017.11.11-04.53.17:456][976]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=28.811 Y=-119.489 Z=70.000
+[2017.11.11-04.53.17:464][977]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=24.517 Y=-130.223 Z=70.000
+[2017.11.11-04.53.17:474][978]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=22.370 Y=-140.958 Z=70.000
+[2017.11.11-04.53.17:483][979]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=20.223 Y=-147.398 Z=70.000
+[2017.11.11-04.53.17:493][980]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=13.783 Y=-155.986 Z=70.000
+[2017.11.11-04.53.17:501][981]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=9.489 Y=-160.279 Z=70.000
+[2017.11.11-04.53.17:511][982]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=5.196 Y=-164.573 Z=70.000
+[2017.11.11-04.53.17:521][983]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=0.902 Y=-168.867 Z=70.000
+[2017.11.11-04.53.17:530][984]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=-1.245 Y=-168.867 Z=70.000
+[2017.11.11-04.53.17:540][985]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=-5.539 Y=-168.867 Z=70.000
+[2017.11.11-04.53.17:549][986]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=-14.126 Y=-168.867 Z=70.000
+[2017.11.11-04.53.17:559][987]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=-20.567 Y=-168.867 Z=70.000
+[2017.11.11-04.53.17:568][988]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=-27.007 Y=-168.867 Z=70.000
+[2017.11.11-04.53.17:579][989]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=-35.595 Y=-162.426 Z=70.000
+[2017.11.11-04.53.17:589][990]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=-67.797 Y=-138.811 Z=70.000
+[2017.11.11-04.53.17:598][991]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=-89.266 Y=-119.489 Z=70.000
+[2017.11.11-04.53.17:608][992]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=-110.734 Y=-95.874 Z=70.000
+[2017.11.11-04.53.17:618][993]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=-132.203 Y=-74.405 Z=70.000
+[2017.11.11-04.53.17:629][994]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=-170.846 Y=-27.175 Z=70.000
+[2017.11.11-04.53.17:639][995]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=-183.727 Y=-7.853 Z=70.000
+[2017.11.11-04.53.17:649][996]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=-196.608 Y=17.909 Z=70.000
+[2017.11.11-04.53.17:659][997]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=-203.049 Y=37.231 Z=70.000
+[2017.11.11-04.53.17:670][998]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=-215.930 Y=78.021 Z=70.000
+[2017.11.11-04.53.17:670][998]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=-215.930 Y=78.021 Z=70.000
+[2017.11.11-04.53.17:680][999]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=-218.077 Y=99.489 Z=70.000
+[2017.11.11-04.53.17:691][  0]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=-222.370 Y=127.398 Z=70.000
+[2017.11.11-04.53.17:706][  1]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=-224.517 Y=172.482 Z=70.000
+[2017.11.11-04.53.17:716][  2]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=-224.517 Y=187.510 Z=70.000
+[2017.11.11-04.53.17:727][  3]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=-213.783 Y=215.419 Z=70.000
+[2017.11.11-04.53.17:737][  4]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=-203.049 Y=228.300 Z=70.000
+[2017.11.11-04.53.17:746][  5]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=-192.315 Y=236.887 Z=70.000
+[2017.11.11-04.53.17:757][  6]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=-162.259 Y=256.209 Z=70.000
+[2017.11.11-04.53.17:767][  7]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=-145.084 Y=258.356 Z=70.000
+[2017.11.11-04.53.17:777][  8]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=-121.469 Y=258.356 Z=70.000
+[2017.11.11-04.53.17:788][  9]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=-91.413 Y=258.356 Z=70.000
+[2017.11.11-04.53.17:798][ 10]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=-18.420 Y=224.006 Z=70.000
+[2017.11.11-04.53.17:808][ 11]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=26.664 Y=193.951 Z=70.000
+[2017.11.11-04.53.17:818][ 12]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=65.307 Y=159.601 Z=70.000
+[2017.11.11-04.53.17:828][ 13]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=99.657 Y=118.811 Z=70.000
+[2017.11.11-04.53.17:838][ 14]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=164.062 Y=26.496 Z=70.000
+[2017.11.11-04.53.17:848][ 15]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=189.824 Y=-16.440 Z=70.000
+[2017.11.11-04.53.17:859][ 16]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=211.293 Y=-67.965 Z=70.000
+[2017.11.11-04.53.17:868][ 17]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=230.614 Y=-119.489 Z=70.000
+[2017.11.11-04.53.17:878][ 18]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=256.377 Y=-205.363 Z=70.000
+[2017.11.11-04.53.17:889][ 19]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=264.964 Y=-244.006 Z=70.000
+[2017.11.11-04.53.17:898][ 20]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=267.111 Y=-271.915 Z=70.000
+[2017.11.11-04.53.17:909][ 21]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=269.258 Y=-310.558 Z=70.000
+[2017.11.11-04.53.17:909][ 21]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=269.258 Y=-310.558 Z=70.000
+[2017.11.11-04.53.17:919][ 22]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=269.258 Y=-329.880 Z=70.000
+[2017.11.11-04.53.17:930][ 23]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=264.964 Y=-342.761 Z=70.000
+[2017.11.11-04.53.17:940][ 24]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=260.670 Y=-353.495 Z=70.000
+[2017.11.11-04.53.17:955][ 25]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=249.936 Y=-362.083 Z=70.000
+[2017.11.11-04.53.17:965][ 26]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=237.055 Y=-366.376 Z=70.000
+[2017.11.11-04.53.17:965][ 26]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=237.055 Y=-366.376 Z=70.000
+[2017.11.11-04.53.17:976][ 27]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=232.761 Y=-366.376 Z=70.000
+[2017.11.11-04.53.17:987][ 28]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=222.027 Y=-362.083 Z=70.000
+[2017.11.11-04.53.17:997][ 29]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=196.265 Y=-338.467 Z=70.000
+[2017.11.11-04.53.17:997][ 29]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=196.265 Y=-338.467 Z=70.000
+[2017.11.11-04.53.18:008][ 30]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=179.090 Y=-316.999 Z=70.000
+[2017.11.11-04.53.18:018][ 31]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=164.062 Y=-289.090 Z=70.000
+[2017.11.11-04.53.18:029][ 32]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=131.860 Y=-211.804 Z=70.000
+[2017.11.11-04.53.18:040][ 33]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=118.978 Y=-164.573 Z=70.000
+[2017.11.11-04.53.18:050][ 34]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=106.097 Y=-113.049 Z=70.000
+[2017.11.11-04.53.18:061][ 35]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=93.216 Y=5.028 Z=70.000
+[2017.11.11-04.53.18:061][ 35]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=93.216 Y=5.028 Z=70.000
+[2017.11.11-04.53.18:071][ 36]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=84.629 Y=60.846 Z=70.000
+[2017.11.11-04.53.18:081][ 37]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=80.335 Y=114.517 Z=70.000
+[2017.11.11-04.53.18:092][ 38]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=80.335 Y=172.482 Z=70.000
+[2017.11.11-04.53.18:101][ 39]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=80.335 Y=264.797 Z=70.000
+[2017.11.11-04.53.18:112][ 40]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=80.335 Y=299.146 Z=70.000
+[2017.11.11-04.53.18:123][ 41]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=80.335 Y=322.761 Z=70.000
+[2017.11.11-04.53.18:133][ 42]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=80.335 Y=344.230 Z=70.000
+[2017.11.11-04.53.18:143][ 43]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=80.335 Y=348.524 Z=70.000
+[2017.11.11-04.53.18:154][ 44]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=80.335 Y=350.671 Z=70.000
+[2017.11.11-04.53.18:164][ 45]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=78.188 Y=352.817 Z=70.000
+[2017.11.11-04.53.18:184][ 47]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=73.894 Y=350.671 Z=70.000
+[2017.11.11-04.53.18:195][ 48]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=65.307 Y=337.789 Z=70.000
+[2017.11.11-04.53.18:208][ 49]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=37.398 Y=245.475 Z=70.000
+[2017.11.11-04.53.18:218][ 50]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=28.811 Y=176.776 Z=70.000
+[2017.11.11-04.53.18:230][ 51]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=24.517 Y=-7.853 Z=70.000
+[2017.11.11-04.53.18:241][ 52]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=24.517 Y=-104.461 Z=70.000
+[2017.11.11-04.53.18:251][ 53]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=24.517 Y=-198.922 Z=70.000
+[2017.11.11-04.53.18:252][ 53]LogBlueprintUserMessages: [Obstacles_C_0] Start Tracking
+[2017.11.11-04.53.18:263][ 54]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=39.545 Y=-396.432 Z=70.000
+[2017.11.11-04.53.18:273][ 55]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=50.279 Y=-480.160 Z=70.000
+[2017.11.11-04.53.18:283][ 56]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=50.280 Y=-535.978 Z=70.000
+[2017.11.11-04.53.18:294][ 57]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=50.280 Y=-574.621 Z=70.000
+[2017.11.11-04.53.18:304][ 58]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=50.280 Y=-576.768 Z=70.000
+[2017.11.11-04.53.18:335][ 61]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=50.280 Y=-566.033 Z=70.000
+[2017.11.11-04.53.18:345][ 62]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=50.280 Y=-546.712 Z=70.000
+[2017.11.11-04.53.18:356][ 63]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=50.279 Y=-505.922 Z=70.000
+[2017.11.11-04.53.18:356][ 63]LogBlueprintUserMessages: [Obstacles_C_0] Start Tracking
+[2017.11.11-04.53.18:366][ 64]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=50.279 Y=-400.726 Z=70.000
+[2017.11.11-04.53.18:376][ 65]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=52.426 Y=-329.880 Z=70.000
+[2017.11.11-04.53.18:388][ 66]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=67.454 Y=-252.594 Z=70.000
+[2017.11.11-04.53.18:398][ 67]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=110.391 Y=-89.433 Z=70.000
+[2017.11.11-04.53.18:408][ 68]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=131.859 Y=-18.587 Z=70.000
+[2017.11.11-04.53.18:418][ 69]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=155.475 Y=39.378 Z=70.000
+[2017.11.11-04.53.18:428][ 70]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=176.943 Y=84.461 Z=70.000
+[2017.11.11-04.53.18:438][ 71]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=204.852 Y=127.398 Z=70.000
+[2017.11.11-04.53.18:450][ 72]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=211.293 Y=131.692 Z=70.000
+[2017.11.11-04.53.18:463][ 73]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=211.293 Y=133.839 Z=70.000
+[2017.11.11-04.53.18:474][ 74]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=213.439 Y=133.839 Z=70.000
+[2017.11.11-04.53.18:484][ 75]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=217.733 Y=129.545 Z=70.000
+[2017.11.11-04.53.18:494][ 76]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=232.761 Y=73.727 Z=70.000
+[2017.11.11-04.53.18:504][ 77]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=241.349 Y=17.909 Z=70.000
+[2017.11.11-04.53.18:514][ 78]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=249.936 Y=-57.230 Z=70.000
+[2017.11.11-04.53.18:525][ 79]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=254.230 Y=-216.097 Z=70.000
+[2017.11.11-04.53.18:525][ 79]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=254.230 Y=-216.097 Z=70.000
+[2017.11.11-04.53.18:534][ 80]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=254.230 Y=-310.558 Z=70.000
+[2017.11.11-04.53.18:544][ 81]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=254.230 Y=-394.286 Z=70.000
+[2017.11.11-04.53.18:555][ 82]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=254.230 Y=-467.278 Z=70.000
+[2017.11.11-04.53.18:565][ 83]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=254.230 Y=-535.977 Z=70.000
+[2017.11.11-04.53.18:576][ 84]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=254.230 Y=-613.264 Z=70.000
+[2017.11.11-04.53.18:586][ 85]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=252.083 Y=-617.558 Z=70.000
+[2017.11.11-04.53.18:596][ 86]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=252.083 Y=-619.705 Z=70.000
+[2017.11.11-04.53.18:615][ 88]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=252.083 Y=-615.411 Z=70.000
+[2017.11.11-04.53.18:627][ 89]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=245.643 Y=-587.502 Z=70.000
+[2017.11.11-04.53.18:638][ 90]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=217.734 Y=-452.250 Z=70.000
+[2017.11.11-04.53.18:638][ 90]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=217.734 Y=-452.250 Z=70.000
+[2017.11.11-04.53.18:648][ 91]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=198.412 Y=-359.936 Z=70.000
+[2017.11.11-04.53.18:661][ 92]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=168.356 Y=-164.573 Z=70.000
+[2017.11.11-04.53.18:661][ 92]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=168.356 Y=-164.573 Z=70.000
+[2017.11.11-04.53.18:672][ 93]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=153.328 Y=-76.552 Z=70.000
+[2017.11.11-04.53.18:681][ 94]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=142.594 Y=-10.000 Z=70.000
+[2017.11.11-04.53.18:693][ 95]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=114.685 Y=73.727 Z=70.000
+[2017.11.11-04.53.18:693][ 95]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=114.685 Y=73.727 Z=70.000
+[2017.11.11-04.53.18:708][ 96]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=112.538 Y=75.874 Z=70.000
+[2017.11.11-04.53.18:717][ 97]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=112.538 Y=78.021 Z=70.000
+[2017.11.11-04.53.18:728][ 98]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=110.391 Y=69.433 Z=70.000
+[2017.11.11-04.53.18:738][ 99]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=110.391 Y=45.818 Z=70.000
+[2017.11.11-04.53.18:747][100]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=110.391 Y=-3.559 Z=70.000
+[2017.11.11-04.53.18:760][101]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=114.685 Y=-134.517 Z=70.000
+[2017.11.11-04.53.18:770][102]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=125.419 Y=-209.657 Z=70.000
+[2017.11.11-04.53.18:780][103]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=136.153 Y=-280.503 Z=70.000
+[2017.11.11-04.53.18:791][104]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=153.328 Y=-407.167 Z=70.000
+[2017.11.11-04.53.18:800][105]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=159.769 Y=-439.369 Z=70.000
+[2017.11.11-04.53.18:810][106]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=159.769 Y=-443.663 Z=70.000
+[2017.11.11-04.53.18:830][108]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=159.769 Y=-430.782 Z=70.000
+[2017.11.11-04.53.18:841][109]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=149.034 Y=-370.670 Z=70.000
+[2017.11.11-04.53.18:851][110]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=136.153 Y=-280.503 Z=70.000
+[2017.11.11-04.53.18:861][111]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=106.097 Y=-93.727 Z=70.000
+[2017.11.11-04.53.18:871][112]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=93.216 Y=-16.440 Z=70.000
+[2017.11.11-04.53.18:881][113]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=84.629 Y=45.818 Z=70.000
+[2017.11.11-04.53.18:892][114]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=80.335 Y=84.461 Z=70.000
+[2017.11.11-04.53.18:902][115]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=80.335 Y=97.342 Z=70.000
+[2017.11.11-04.53.18:941][119]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=80.335 Y=80.168 Z=70.000
+[2017.11.11-04.53.18:958][120]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=84.629 Y=-10.000 Z=70.000
+[2017.11.11-04.53.18:959][120]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=84.629 Y=-10.000 Z=70.000
+[2017.11.11-04.53.18:970][121]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=88.922 Y=-61.524 Z=70.000
+[2017.11.11-04.53.18:980][122]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=95.363 Y=-110.902 Z=70.000
+[2017.11.11-04.53.18:991][123]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=95.363 Y=-177.454 Z=70.000
+[2017.11.11-04.53.19:000][124]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=95.363 Y=-188.188 Z=70.000
+[2017.11.11-04.53.19:011][125]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=93.216 Y=-194.629 Z=70.000
+[2017.11.11-04.53.19:021][126]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=91.069 Y=-196.776 Z=70.000
+[2017.11.11-04.53.19:031][127]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=86.776 Y=-194.629 Z=70.000
+[2017.11.11-04.53.19:041][128]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=82.482 Y=-190.335 Z=70.000
+[2017.11.11-04.53.19:051][129]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=76.041 Y=-186.041 Z=70.000
+[2017.11.11-04.53.19:061][130]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=63.160 Y=-155.986 Z=70.000
+[2017.11.11-04.53.19:071][131]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=58.867 Y=-138.811 Z=70.000
+[2017.11.11-04.53.19:081][132]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=54.573 Y=-128.077 Z=70.000
+[2017.11.11-04.53.19:092][133]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=54.573 Y=-121.636 Z=70.000
+[2017.11.11-04.53.19:101][134]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=54.573 Y=-121.636 Z=70.000
+[2017.11.11-04.53.19:122][136]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=54.573 Y=-119.489 Z=70.000
+[2017.11.11-04.53.19:132][137]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=54.573 Y=-117.342 Z=70.000
+[2017.11.11-04.53.19:143][138]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.11.11-04.53.20:252][248]LogBlueprintUserMessages: [Obstacles_C_1] Start Tracking
+[2017.11.11-04.53.20:685][292]LogBlueprintUserMessages: [Obstacles_C_1] Start Tracking
+[2017.11.11-04.53.20:685][292]PIE: Warning: Obstacles_C_1.StaticMesh 1M_Cube has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2017.11.11-04.53.20:685][292]LogBlueprintUserMessages: [Obstacles_C_1] Destroyed Obstacle
+[2017.11.11-04.53.20:685][292]LogBlueprintUserMessages: [OrbitalDodge_Pawn_C_0] -5.315636
+[2017.11.11-04.53.21:717][405]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2017.11.11-04.53.21:787][405]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2017.11.11-04.53.27:368][  9]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.11-04.53.27:368][  9]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.11-04.53.27:601][ 10]Cmd: QUIT_EDITOR
+[2017.11.11-04.53.28:407][ 10]LogExit: Preparing to exit.
+[2017.11.11-04.53.28:799][ 10]LogDirectoryWatcher: A directory notification for 'C:/Users/Jerry Kendall/Documents/OrbitalDodge/OrbitalDodge/Content/' was aborted.
+[2017.11.11-04.53.28:824][ 10]LogExit: Editor shut down
+[2017.11.11-04.53.28:832][ 10]LogExit: Transaction tracking system shut down
+[2017.11.11-04.53.28:925][ 10]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.11-04.53.28:925][ 10]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Jerry Kendall/Documents/OrbitalDodge/OrbitalDodge/Content/' was aborted.
+[2017.11.11-04.53.28:925][ 10]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.11-04.53.28:925][ 10]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.11.11-04.53.28:925][ 10]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.11.11-04.53.28:997][ 10]LogExit: Object subsystem successfully closed.
+[2017.11.11-04.53.29:022][ 10]LogD3D11RHI: Shutdown
+[2017.11.11-04.53.29:023][ 10]LogD3D11RHI: CleanupD3DDevice
+[2017.11.11-04.53.29:119][ 10]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.11-04.53.29:157][ 10]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (534)
+[2017.11.11-04.53.29:157][ 10]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (532)
+[2017.11.11-04.53.29:157][ 10]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.11.11-04.53.29:157][ 10]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.11.11-04.53.29:157][ 10]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.11.11-04.53.29:157][ 10]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.11.11-04.53.29:158][ 10]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.11.11-04.53.29:158][ 10]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.11.11-04.53.29:158][ 10]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.11.11-04.53.29:159][ 10]LogDirectoryWatcher: A directory notification for 'C:/Users/Jerry Kendall/Documents/OrbitalDodge/OrbitalDodge/Content/Collections/' was aborted.
+[2017.11.11-04.53.29:159][ 10]LogDirectoryWatcher: A directory notification for 'C:/Users/Jerry Kendall/Documents/OrbitalDodge/OrbitalDodge/Content/Developers/JerryKendall/Collections/' was aborted.
+[2017.11.11-04.53.29:159][ 10]LogDirectoryWatcher: A directory notification for 'C:/Users/Jerry Kendall/Documents/OrbitalDodge/OrbitalDodge/Saved/Collections/' was aborted.
+[2017.11.11-04.53.29:159][ 10]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.11.11-04.53.29:159][ 10]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.11.11-04.53.29:159][ 10]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.11.11-04.53.29:159][ 10]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.11.11-04.53.29:159][ 10]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.11.11-04.53.29:159][ 10]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.11.11-04.53.29:159][ 10]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.11.11-04.53.29:159][ 10]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.11.11-04.53.29:159][ 10]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.11.11-04.53.29:159][ 10]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.11.11-04.53.29:159][ 10]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.11.11-04.53.29:159][ 10]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.11.11-04.53.29:159][ 10]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.11.11-04.53.29:159][ 10]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.11.11-04.53.29:159][ 10]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.11.11-04.53.29:159][ 10]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.11.11-04.53.29:159][ 10]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.11.11-04.53.29:159][ 10]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.11.11-04.53.29:159][ 10]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.11.11-04.53.29:159][ 10]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.11.11-04.53.29:160][ 10]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.11.11-04.53.29:160][ 10]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.11.11-04.53.29:160][ 10]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.11.11-04.53.29:160][ 10]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.11.11-04.53.29:160][ 10]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.11.11-04.53.29:160][ 10]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.11.11-04.53.29:160][ 10]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.11.11-04.53.29:160][ 10]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.11.11-04.53.29:160][ 10]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.11.11-04.53.29:160][ 10]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.11.11-04.53.29:160][ 10]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.11.11-04.53.29:160][ 10]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.11.11-04.53.29:160][ 10]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.11.11-04.53.29:160][ 10]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.11.11-04.53.29:160][ 10]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.11.11-04.53.29:160][ 10]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.11.11-04.53.29:160][ 10]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.11.11-04.53.29:160][ 10]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.11.11-04.53.29:873][ 10]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.11.11-04.53.29:873][ 10]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.11.11-04.53.29:873][ 10]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.11.11-04.53.29:873][ 10]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.11.11-04.53.29:873][ 10]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.11.11-04.53.29:873][ 10]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.11.11-04.53.29:873][ 10]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.11.11-04.53.29:873][ 10]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.11.11-04.53.29:873][ 10]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.11.11-04.53.29:873][ 10]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.11.11-04.53.29:873][ 10]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.11.11-04.53.29:873][ 10]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.11.11-04.53.29:873][ 10]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.11.11-04.53.29:873][ 10]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.11.11-04.53.29:873][ 10]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.11.11-04.53.29:873][ 10]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.11.11-04.53.29:873][ 10]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.11.11-04.53.29:873][ 10]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.11.11-04.53.29:873][ 10]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.11.11-04.53.29:874][ 10]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.11.11-04.53.29:874][ 10]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.11.11-04.53.29:874][ 10]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.11.11-04.53.29:874][ 10]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.11.11-04.53.29:874][ 10]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.11.11-04.53.29:926][ 10]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.11.11-04.53.29:926][ 10]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.11.11-04.53.29:926][ 10]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.11.11-04.53.29:926][ 10]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.11.11-04.53.29:926][ 10]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.11.11-04.53.29:926][ 10]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.11.11-04.53.29:926][ 10]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.11.11-04.53.29:926][ 10]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.11.11-04.53.29:926][ 10]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.11.11-04.53.29:926][ 10]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.11.11-04.53.29:927][ 10]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.11.11-04.53.29:928][ 10]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.11.11-04.53.29:928][ 10]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.11.11-04.53.29:928][ 10]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.11.11-04.53.29:928][ 10]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.11.11-04.53.29:928][ 10]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.11.11-04.53.29:928][ 10]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.11.11-04.53.29:928][ 10]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.11.11-04.53.29:928][ 10]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.11.11-04.53.29:928][ 10]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.11.11-04.53.29:928][ 10]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.11.11-04.53.29:929][ 10]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.11.11-04.53.29:929][ 10]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.11.11-04.53.29:929][ 10]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.11.11-04.53.29:929][ 10]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.11.11-04.53.29:929][ 10]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.11.11-04.53.29:929][ 10]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.11.11-04.53.29:929][ 10]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.11.11-04.53.29:929][ 10]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.11.11-04.53.29:929][ 10]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.11.11-04.53.29:929][ 10]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.11.11-04.53.30:133][ 10]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.11.11-04.53.30:133][ 10]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.11.11-04.53.30:133][ 10]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.11.11-04.53.30:133][ 10]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.11.11-04.53.30:133][ 10]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.11.11-04.53.30:133][ 10]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.11.11-04.53.30:133][ 10]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.11.11-04.53.30:133][ 10]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.11.11-04.53.30:133][ 10]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.11.11-04.53.30:133][ 10]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.11.11-04.53.30:133][ 10]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.11.11-04.53.30:133][ 10]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.11.11-04.53.30:133][ 10]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.11.11-04.53.30:133][ 10]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.11.11-04.53.30:133][ 10]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.11.11-04.53.30:133][ 10]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.11.11-04.53.30:133][ 10]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.11.11-04.53.30:133][ 10]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.11.11-04.53.30:133][ 10]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.11.11-04.53.30:133][ 10]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.11.11-04.53.30:133][ 10]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.11.11-04.53.30:133][ 10]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.11.11-04.53.30:133][ 10]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.11.11-04.53.30:133][ 10]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.11.11-04.53.30:133][ 10]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.11.11-04.53.30:133][ 10]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.11.11-04.53.30:133][ 10]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.11.11-04.53.30:133][ 10]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.11.11-04.53.30:133][ 10]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.11.11-04.53.30:133][ 10]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.11.11-04.53.30:133][ 10]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.11.11-04.53.30:134][ 10]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.11.11-04.53.30:134][ 10]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.11.11-04.53.30:134][ 10]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.11.11-04.53.30:135][ 10]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.11.11-04.53.30:136][ 10]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.11.11-04.53.30:136][ 10]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.11.11-04.53.30:136][ 10]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.11.11-04.53.30:136][ 10]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.11.11-04.53.30:136][ 10]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.11.11-04.53.30:136][ 10]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.11.11-04.53.30:136][ 10]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.11.11-04.53.30:136][ 10]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.11.11-04.53.30:236][ 10]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.11.11-04.53.30:336][ 10]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.11.11-04.53.30:336][ 10]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.11.11-04.53.30:336][ 10]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.11.11-04.53.30:336][ 10]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.11.11-04.53.30:336][ 10]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.11.11-04.53.30:336][ 10]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.11.11-04.53.30:338][ 10]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.11.11-04.53.30:338][ 10]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.11.11-04.53.30:338][ 10]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.11.11-04.53.30:338][ 10]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.11.11-04.53.30:338][ 10]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.11.11-04.53.30:338][ 10]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.11.11-04.53.30:338][ 10]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.11.11-04.53.30:338][ 10]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.11.11-04.53.30:338][ 10]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.11.11-04.53.30:338][ 10]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.11.11-04.53.30:338][ 10]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.11.11-04.53.30:338][ 10]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.11.11-04.53.30:338][ 10]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.11.11-04.53.30:338][ 10]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.11.11-04.53.30:338][ 10]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.11.11-04.53.30:338][ 10]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.11.11-04.53.30:338][ 10]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.11.11-04.53.30:338][ 10]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.11.11-04.53.30:338][ 10]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.11.11-04.53.30:338][ 10]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.11.11-04.53.30:338][ 10]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.11.11-04.53.30:338][ 10]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.11.11-04.53.30:338][ 10]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.11.11-04.53.30:338][ 10]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.11.11-04.53.30:342][ 10]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.11.11-04.53.30:342][ 10]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.11.11-04.53.30:342][ 10]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.11.11-04.53.30:342][ 10]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.11.11-04.53.30:342][ 10]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.11.11-04.53.30:342][ 10]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.11.11-04.53.30:342][ 10]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.11.11-04.53.30:342][ 10]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.11.11-04.53.30:342][ 10]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.11.11-04.53.30:342][ 10]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.11.11-04.53.30:342][ 10]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.11.11-04.53.30:342][ 10]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.11.11-04.53.30:342][ 10]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.11.11-04.53.30:342][ 10]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.11.11-04.53.30:342][ 10]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.11.11-04.53.30:342][ 10]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.11.11-04.53.30:343][ 10]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.11.11-04.53.30:420][ 10]LogDerivedDataCache: Shutdown
+[2017.11.11-04.53.30:420][ 10]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.11.11-04.53.30:420][ 10]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.11.11-04.53.30:420][ 10]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.11.11-04.53.30:420][ 10]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.11.11-04.53.30:420][ 10]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.11.11-04.53.30:420][ 10]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.11.11-04.53.30:420][ 10]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.11.11-04.53.30:420][ 10]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.11.11-04.53.30:420][ 10]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.11.11-04.53.30:420][ 10]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.11.11-04.53.30:421][ 10]LogOnline: Display: Unloading online subsystem: NULL
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.11-04.53.30:421][ 10]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.11-04.53.30:422][ 10]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.11.11-04.53.30:422][ 10]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B413A8AD8-419D-6A81-0E30-81A33583F7FA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=3c5f41a94f5dcdb9198a3da11c579e49%7C161c7b1a29994778aa490b11b6371ef9%7C01edfc1f-a4b3-4938-99be-5a4165d8b8ef&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.11-04.53.30:451][ 10]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.11-04.53.30:453][ 10]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.11.11-04.53.30:453][ 10]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.11.11-04.53.30:453][ 10]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.11.11-04.53.30:453][ 10]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.11.11-04.53.30:453][ 10]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.11.11-04.53.30:453][ 10]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.11.11-04.53.30:453][ 10]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.11.11-04.53.30:454][ 10]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.11.11-04.53.30:454][ 10]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.11.11-04.53.30:454][ 10]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.11.11-04.53.30:454][ 10]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.11.11-04.53.30:454][ 10]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.11.11-04.53.30:454][ 10]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.11.11-04.53.30:454][ 10]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.11.11-04.53.30:454][ 10]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.11.11-04.53.30:454][ 10]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.11-04.53.30:454][ 10]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.11-04.53.30:454][ 10]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.11-04.53.30:458][ 10]LogExit: Exiting.
+[2017.11.11-04.53.30:480][ 10]Log file closed, 11/10/17 21:53:30
